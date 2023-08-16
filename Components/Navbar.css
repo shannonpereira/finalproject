@@ -1,0 +1,66 @@
+/* Navbar container */
+.navbar {
+    background-color: #343a40; /* Dark gray background */
+  }
+  
+  /* Navbar brand link */
+  .navbar-brand {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .navbar-brand:hover {
+    color: #e9ecef; /* Light gray on hover */
+  }
+  
+  /* Navbar toggler icon */
+  .navbar-toggler-icon {
+    filter: invert(1); /* Invert the icon color to white */
+  }
+  
+  /* Navbar links */
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #e9ecef; /* Light gray on hover */
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    background-color: #343a40; /* Dark gray background */
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Dropdown menu items */
+  .dropdown-item {
+    font-size: 16px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #495057; /* Slightly lighter gray on hover */
+    color: #fff;
+  }
+  
+  /* Login and Signup buttons */
+  .navbar .d-flex .btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+  
+  .navbar .d-flex .btn:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+  }
+  
+  /* Active link */
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #e9ecef; /* Light gray for the active link */
+  }
+  

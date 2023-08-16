@@ -1,0 +1,19 @@
+/* Login.css */
+.background-image-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9; /* Adjust the opacity to control the fade effect (0.1 to 1) */
+  }
+/* Login.css */
+body {
+    background-image: url('https://tse1.mm.bing.net/th/id/OIP.SFxsYfC6IEhtmk_YKwMzkgHaQC?w=115&h=180&c=7&r=0&o=5&pid=1.7'); /* Replace '/path/to/your/downloaded/image.jpg' with the actual path to your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  

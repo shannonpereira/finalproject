@@ -1,0 +1,81 @@
+
+
+/* Home.css */
+.company-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.company-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.image-section {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.home-image {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-carousel {
+  margin: 40px 0;
+}
+
+.service-card {
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+.service-card .card-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.container.mt-5 h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.info-card {
+  background-color: #f8f8f8;
+  border: none;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Additional styles for the cards in the Living Healthy section */
+.container.mt-5 .info-card .card-img-top {
+  max-width: 100px;
+  margin: 20px auto;
+}
+
+.container.mt-5 .info-card .card-title {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+.container.mt-5 .info-card .card-text {
+  font-size: 1rem;
+  color: #555;
+}
